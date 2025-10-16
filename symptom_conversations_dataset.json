@@ -1,0 +1,4166 @@
+[
+  {
+    "id": 1,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having shortness of breath lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Anxiety. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "shortness of breath",
+    "possible_conditions": [
+      "Asthma",
+      "COPD",
+      "Anxiety"
+    ]
+  },
+  {
+    "id": 2,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having chest pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Muscle strain. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "chest pain",
+    "possible_conditions": [
+      "Heart disease",
+      "Muscle strain",
+      "Acid reflux"
+    ]
+  },
+  {
+    "id": 3,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having weight loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Hyperthyroidism. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "weight loss",
+    "possible_conditions": [
+      "Hyperthyroidism",
+      "Diabetes",
+      "Cancer"
+    ]
+  },
+  {
+    "id": 4,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having nausea lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing nausea?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with nausea?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Pregnancy. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "nausea",
+    "possible_conditions": [
+      "Food poisoning",
+      "Pregnancy",
+      "Gastroenteritis"
+    ]
+  },
+  {
+    "id": 5,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having anxiety lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Panic disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "anxiety",
+    "possible_conditions": [
+      "Generalized anxiety disorder",
+      "Panic disorder"
+    ]
+  },
+  {
+    "id": 6,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having weight loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Cancer. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "weight loss",
+    "possible_conditions": [
+      "Hyperthyroidism",
+      "Diabetes",
+      "Cancer"
+    ]
+  },
+  {
+    "id": 7,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having allergy lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing allergy?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with allergy?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dust allergy. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "allergy",
+    "possible_conditions": [
+      "Pollen allergy",
+      "Dust allergy"
+    ]
+  },
+  {
+    "id": 8,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having toothache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing toothache?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with toothache?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Tooth decay. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "toothache",
+    "possible_conditions": [
+      "Cavity",
+      "Gum infection",
+      "Tooth decay"
+    ]
+  },
+  {
+    "id": 9,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having appetite loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing appetite loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with appetite loss?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Stress. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "appetite loss",
+    "possible_conditions": [
+      "Depression",
+      "Infection",
+      "Stress"
+    ]
+  },
+  {
+    "id": 10,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having chest pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Heart disease. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "chest pain",
+    "possible_conditions": [
+      "Heart disease",
+      "Muscle strain",
+      "Acid reflux"
+    ]
+  },
+  {
+    "id": 11,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having shortness of breath lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "About 8 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to COPD. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "shortness of breath",
+    "possible_conditions": [
+      "Asthma",
+      "COPD",
+      "Anxiety"
+    ]
+  },
+  {
+    "id": 12,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having eye irritation lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing eye irritation?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with eye irritation?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dry eyes. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "eye irritation",
+    "possible_conditions": [
+      "Conjunctivitis",
+      "Allergy",
+      "Dry eyes"
+    ]
+  },
+  {
+    "id": 13,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having allergy lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing allergy?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with allergy?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Pollen allergy. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "allergy",
+    "possible_conditions": [
+      "Pollen allergy",
+      "Dust allergy"
+    ]
+  },
+  {
+    "id": 14,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having palpitations lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing palpitations?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with palpitations?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Caffeine. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "palpitations",
+    "possible_conditions": [
+      "Anxiety",
+      "Arrhythmia",
+      "Caffeine"
+    ]
+  },
+  {
+    "id": 15,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having cough lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing cough?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with cough?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Common cold. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "cough",
+    "possible_conditions": [
+      "Common cold",
+      "Bronchitis",
+      "Asthma"
+    ]
+  },
+  {
+    "id": 16,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having muscle pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Injury. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "muscle pain",
+    "possible_conditions": [
+      "Overexertion",
+      "Injury",
+      "Viral infection"
+    ]
+  },
+  {
+    "id": 17,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having joint pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Autoimmune disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "joint pain",
+    "possible_conditions": [
+      "Arthritis",
+      "Injury",
+      "Autoimmune disorder"
+    ]
+  },
+  {
+    "id": 18,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having constipation lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing constipation?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with constipation?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dehydration. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "constipation",
+    "possible_conditions": [
+      "Dehydration",
+      "Low fiber diet"
+    ]
+  },
+  {
+    "id": 19,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having headache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing headache?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with headache?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Sinusitis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "headache",
+    "possible_conditions": [
+      "Migraine",
+      "Tension headache",
+      "Sinusitis"
+    ]
+  },
+  {
+    "id": 20,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having stomach pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Gastritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "stomach pain",
+    "possible_conditions": [
+      "Gastritis",
+      "Food poisoning",
+      "IBS"
+    ]
+  },
+  {
+    "id": 21,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having earache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing earache?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with earache?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Ear infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "earache",
+    "possible_conditions": [
+      "Ear infection",
+      "Wax buildup"
+    ]
+  },
+  {
+    "id": 22,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having vomiting lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing vomiting?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with vomiting?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Gastroenteritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "vomiting",
+    "possible_conditions": [
+      "Gastroenteritis",
+      "Migraine",
+      "Food poisoning"
+    ]
+  },
+  {
+    "id": 23,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having weight loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 8 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Diabetes. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "weight loss",
+    "possible_conditions": [
+      "Hyperthyroidism",
+      "Diabetes",
+      "Cancer"
+    ]
+  },
+  {
+    "id": 24,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having back pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing back pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 6 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with back pain?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Herniated disc. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "back pain",
+    "possible_conditions": [
+      "Muscle strain",
+      "Herniated disc",
+      "Poor posture"
+    ]
+  },
+  {
+    "id": 25,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having joint pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Arthritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "joint pain",
+    "possible_conditions": [
+      "Arthritis",
+      "Injury",
+      "Autoimmune disorder"
+    ]
+  },
+  {
+    "id": 26,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having earache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing earache?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with earache?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Ear infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "earache",
+    "possible_conditions": [
+      "Ear infection",
+      "Wax buildup"
+    ]
+  },
+  {
+    "id": 27,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having earache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing earache?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with earache?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Ear infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "earache",
+    "possible_conditions": [
+      "Ear infection",
+      "Wax buildup"
+    ]
+  },
+  {
+    "id": 28,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having cough lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing cough?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with cough?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Asthma. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "cough",
+    "possible_conditions": [
+      "Common cold",
+      "Bronchitis",
+      "Asthma"
+    ]
+  },
+  {
+    "id": 29,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having depression lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing depression?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with depression?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Major depressive disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "depression",
+    "possible_conditions": [
+      "Major depressive disorder",
+      "Dysthymia"
+    ]
+  },
+  {
+    "id": 30,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having stomach pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to IBS. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "stomach pain",
+    "possible_conditions": [
+      "Gastritis",
+      "Food poisoning",
+      "IBS"
+    ]
+  },
+  {
+    "id": 31,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having dizziness lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Low blood pressure. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "dizziness",
+    "possible_conditions": [
+      "Low blood pressure",
+      "Vertigo",
+      "Dehydration"
+    ]
+  },
+  {
+    "id": 32,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having stomach pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to IBS. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "stomach pain",
+    "possible_conditions": [
+      "Gastritis",
+      "Food poisoning",
+      "IBS"
+    ]
+  },
+  {
+    "id": 33,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having earache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing earache?"
+      },
+      {
+        "role": "user",
+        "text": "About 8 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with earache?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Ear infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "earache",
+    "possible_conditions": [
+      "Ear infection",
+      "Wax buildup"
+    ]
+  },
+  {
+    "id": 34,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having anxiety lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "About 8 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Panic disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "anxiety",
+    "possible_conditions": [
+      "Generalized anxiety disorder",
+      "Panic disorder"
+    ]
+  },
+  {
+    "id": 35,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having depression lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing depression?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with depression?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Major depressive disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "depression",
+    "possible_conditions": [
+      "Major depressive disorder",
+      "Dysthymia"
+    ]
+  },
+  {
+    "id": 36,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having insomnia lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Depression. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "insomnia",
+    "possible_conditions": [
+      "Stress",
+      "Anxiety",
+      "Depression"
+    ]
+  },
+  {
+    "id": 37,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having fatigue lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing fatigue?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with fatigue?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Sleep deprivation. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "fatigue",
+    "possible_conditions": [
+      "Anemia",
+      "Sleep deprivation",
+      "Depression"
+    ]
+  },
+  {
+    "id": 38,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having dizziness lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Vertigo. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "dizziness",
+    "possible_conditions": [
+      "Low blood pressure",
+      "Vertigo",
+      "Dehydration"
+    ]
+  },
+  {
+    "id": 39,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having stomach pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Gastritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "stomach pain",
+    "possible_conditions": [
+      "Gastritis",
+      "Food poisoning",
+      "IBS"
+    ]
+  },
+  {
+    "id": 40,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having cold lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing cold?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with cold?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Common cold. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "cold",
+    "possible_conditions": [
+      "Common cold",
+      "Allergic rhinitis"
+    ]
+  },
+  {
+    "id": 41,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having joint pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Injury. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "joint pain",
+    "possible_conditions": [
+      "Arthritis",
+      "Injury",
+      "Autoimmune disorder"
+    ]
+  },
+  {
+    "id": 42,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having cold lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing cold?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with cold?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Allergic rhinitis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "cold",
+    "possible_conditions": [
+      "Common cold",
+      "Allergic rhinitis"
+    ]
+  },
+  {
+    "id": 43,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having skin rash lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing skin rash?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with skin rash?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Contact dermatitis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "skin rash",
+    "possible_conditions": [
+      "Eczema",
+      "Allergy",
+      "Contact dermatitis"
+    ]
+  },
+  {
+    "id": 44,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having cough lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing cough?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with cough?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Common cold. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "cough",
+    "possible_conditions": [
+      "Common cold",
+      "Bronchitis",
+      "Asthma"
+    ]
+  },
+  {
+    "id": 45,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having skin rash lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing skin rash?"
+      },
+      {
+        "role": "user",
+        "text": "About 8 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with skin rash?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Allergy. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "skin rash",
+    "possible_conditions": [
+      "Eczema",
+      "Allergy",
+      "Contact dermatitis"
+    ]
+  },
+  {
+    "id": 46,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having constipation lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing constipation?"
+      },
+      {
+        "role": "user",
+        "text": "About 6 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with constipation?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dehydration. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "constipation",
+    "possible_conditions": [
+      "Dehydration",
+      "Low fiber diet"
+    ]
+  },
+  {
+    "id": 47,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having depression lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing depression?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with depression?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dysthymia. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "depression",
+    "possible_conditions": [
+      "Major depressive disorder",
+      "Dysthymia"
+    ]
+  },
+  {
+    "id": 48,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having swelling lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing swelling?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with swelling?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Injury. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "swelling",
+    "possible_conditions": [
+      "Injury",
+      "Infection",
+      "Allergy"
+    ]
+  },
+  {
+    "id": 49,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having sore throat lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing sore throat?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with sore throat?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Viral infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "sore throat",
+    "possible_conditions": [
+      "Viral infection",
+      "Tonsillitis"
+    ]
+  },
+  {
+    "id": 50,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having joint pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Injury. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "joint pain",
+    "possible_conditions": [
+      "Arthritis",
+      "Injury",
+      "Autoimmune disorder"
+    ]
+  },
+  {
+    "id": 51,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having diarrhea lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing diarrhea?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with diarrhea?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Food poisoning. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "diarrhea",
+    "possible_conditions": [
+      "Infection",
+      "Food poisoning",
+      "IBS"
+    ]
+  },
+  {
+    "id": 52,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having joint pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Arthritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "joint pain",
+    "possible_conditions": [
+      "Arthritis",
+      "Injury",
+      "Autoimmune disorder"
+    ]
+  },
+  {
+    "id": 53,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having stomach pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Gastritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "stomach pain",
+    "possible_conditions": [
+      "Gastritis",
+      "Food poisoning",
+      "IBS"
+    ]
+  },
+  {
+    "id": 54,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having shortness of breath lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Asthma. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "shortness of breath",
+    "possible_conditions": [
+      "Asthma",
+      "COPD",
+      "Anxiety"
+    ]
+  },
+  {
+    "id": 55,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having depression lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing depression?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with depression?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Major depressive disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "depression",
+    "possible_conditions": [
+      "Major depressive disorder",
+      "Dysthymia"
+    ]
+  },
+  {
+    "id": 56,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having insomnia lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Anxiety. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "insomnia",
+    "possible_conditions": [
+      "Stress",
+      "Anxiety",
+      "Depression"
+    ]
+  },
+  {
+    "id": 57,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having appetite loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing appetite loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with appetite loss?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Stress. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "appetite loss",
+    "possible_conditions": [
+      "Depression",
+      "Infection",
+      "Stress"
+    ]
+  },
+  {
+    "id": 58,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having skin rash lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing skin rash?"
+      },
+      {
+        "role": "user",
+        "text": "About 8 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with skin rash?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Contact dermatitis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "skin rash",
+    "possible_conditions": [
+      "Eczema",
+      "Allergy",
+      "Contact dermatitis"
+    ]
+  },
+  {
+    "id": 59,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having burning sensation lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing burning sensation?"
+      },
+      {
+        "role": "user",
+        "text": "About 6 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with burning sensation?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Skin irritation. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "burning sensation",
+    "possible_conditions": [
+      "UTI",
+      "Reflux",
+      "Skin irritation"
+    ]
+  },
+  {
+    "id": 60,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having earache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing earache?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with earache?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Ear infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "earache",
+    "possible_conditions": [
+      "Ear infection",
+      "Wax buildup"
+    ]
+  },
+  {
+    "id": 61,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having appetite loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing appetite loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with appetite loss?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Depression. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "appetite loss",
+    "possible_conditions": [
+      "Depression",
+      "Infection",
+      "Stress"
+    ]
+  },
+  {
+    "id": 62,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having earache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing earache?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with earache?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Ear infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "earache",
+    "possible_conditions": [
+      "Ear infection",
+      "Wax buildup"
+    ]
+  },
+  {
+    "id": 63,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having weight loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Diabetes. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "weight loss",
+    "possible_conditions": [
+      "Hyperthyroidism",
+      "Diabetes",
+      "Cancer"
+    ]
+  },
+  {
+    "id": 64,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having muscle pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Injury. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "muscle pain",
+    "possible_conditions": [
+      "Overexertion",
+      "Injury",
+      "Viral infection"
+    ]
+  },
+  {
+    "id": 65,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having depression lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing depression?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with depression?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dysthymia. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "depression",
+    "possible_conditions": [
+      "Major depressive disorder",
+      "Dysthymia"
+    ]
+  },
+  {
+    "id": 66,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having period pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing period pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with period pain?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dysmenorrhea. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "period pain",
+    "possible_conditions": [
+      "Dysmenorrhea",
+      "Endometriosis"
+    ]
+  },
+  {
+    "id": 67,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having fever lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing fever?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with fever?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Viral infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "fever",
+    "possible_conditions": [
+      "Flu",
+      "Viral infection",
+      "COVID-19"
+    ]
+  },
+  {
+    "id": 68,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having cold lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing cold?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with cold?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Common cold. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "cold",
+    "possible_conditions": [
+      "Common cold",
+      "Allergic rhinitis"
+    ]
+  },
+  {
+    "id": 69,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having insomnia lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Stress. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "insomnia",
+    "possible_conditions": [
+      "Stress",
+      "Anxiety",
+      "Depression"
+    ]
+  },
+  {
+    "id": 70,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having allergy lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing allergy?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with allergy?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Pollen allergy. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "allergy",
+    "possible_conditions": [
+      "Pollen allergy",
+      "Dust allergy"
+    ]
+  },
+  {
+    "id": 71,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having joint pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Injury. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "joint pain",
+    "possible_conditions": [
+      "Arthritis",
+      "Injury",
+      "Autoimmune disorder"
+    ]
+  },
+  {
+    "id": 72,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having swelling lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing swelling?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with swelling?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "swelling",
+    "possible_conditions": [
+      "Injury",
+      "Infection",
+      "Allergy"
+    ]
+  },
+  {
+    "id": 73,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having stomach pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with stomach pain?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to IBS. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "stomach pain",
+    "possible_conditions": [
+      "Gastritis",
+      "Food poisoning",
+      "IBS"
+    ]
+  },
+  {
+    "id": 74,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having dizziness lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dehydration. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "dizziness",
+    "possible_conditions": [
+      "Low blood pressure",
+      "Vertigo",
+      "Dehydration"
+    ]
+  },
+  {
+    "id": 75,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having fatigue lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing fatigue?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with fatigue?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Sleep deprivation. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "fatigue",
+    "possible_conditions": [
+      "Anemia",
+      "Sleep deprivation",
+      "Depression"
+    ]
+  },
+  {
+    "id": 76,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having fatigue lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing fatigue?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with fatigue?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Anemia. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "fatigue",
+    "possible_conditions": [
+      "Anemia",
+      "Sleep deprivation",
+      "Depression"
+    ]
+  },
+  {
+    "id": 77,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having eye irritation lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing eye irritation?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with eye irritation?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dry eyes. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "eye irritation",
+    "possible_conditions": [
+      "Conjunctivitis",
+      "Allergy",
+      "Dry eyes"
+    ]
+  },
+  {
+    "id": 78,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having eye irritation lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing eye irritation?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with eye irritation?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Allergy. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "eye irritation",
+    "possible_conditions": [
+      "Conjunctivitis",
+      "Allergy",
+      "Dry eyes"
+    ]
+  },
+  {
+    "id": 79,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having nausea lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing nausea?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with nausea?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Gastroenteritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "nausea",
+    "possible_conditions": [
+      "Food poisoning",
+      "Pregnancy",
+      "Gastroenteritis"
+    ]
+  },
+  {
+    "id": 80,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having weight loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 6 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Cancer. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "weight loss",
+    "possible_conditions": [
+      "Hyperthyroidism",
+      "Diabetes",
+      "Cancer"
+    ]
+  },
+  {
+    "id": 81,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having chest pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Heart disease. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "chest pain",
+    "possible_conditions": [
+      "Heart disease",
+      "Muscle strain",
+      "Acid reflux"
+    ]
+  },
+  {
+    "id": 82,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having allergy lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing allergy?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with allergy?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dust allergy. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "allergy",
+    "possible_conditions": [
+      "Pollen allergy",
+      "Dust allergy"
+    ]
+  },
+  {
+    "id": 83,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having muscle pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Viral infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "muscle pain",
+    "possible_conditions": [
+      "Overexertion",
+      "Injury",
+      "Viral infection"
+    ]
+  },
+  {
+    "id": 84,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having sore throat lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing sore throat?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with sore throat?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Viral infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "sore throat",
+    "possible_conditions": [
+      "Viral infection",
+      "Tonsillitis"
+    ]
+  },
+  {
+    "id": 85,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having urinary issues lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing urinary issues?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with urinary issues?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dehydration. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "urinary issues",
+    "possible_conditions": [
+      "UTI",
+      "Dehydration",
+      "Kidney infection"
+    ]
+  },
+  {
+    "id": 86,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having dizziness lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Vertigo. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "dizziness",
+    "possible_conditions": [
+      "Low blood pressure",
+      "Vertigo",
+      "Dehydration"
+    ]
+  },
+  {
+    "id": 87,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having nausea lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing nausea?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with nausea?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Gastroenteritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "nausea",
+    "possible_conditions": [
+      "Food poisoning",
+      "Pregnancy",
+      "Gastroenteritis"
+    ]
+  },
+  {
+    "id": 88,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having insomnia lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Stress. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "insomnia",
+    "possible_conditions": [
+      "Stress",
+      "Anxiety",
+      "Depression"
+    ]
+  },
+  {
+    "id": 89,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having shortness of breath lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Anxiety. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "shortness of breath",
+    "possible_conditions": [
+      "Asthma",
+      "COPD",
+      "Anxiety"
+    ]
+  },
+  {
+    "id": 90,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having muscle pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Overexertion. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "muscle pain",
+    "possible_conditions": [
+      "Overexertion",
+      "Injury",
+      "Viral infection"
+    ]
+  },
+  {
+    "id": 91,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having muscle pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with muscle pain?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Viral infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "muscle pain",
+    "possible_conditions": [
+      "Overexertion",
+      "Injury",
+      "Viral infection"
+    ]
+  },
+  {
+    "id": 92,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having toothache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing toothache?"
+      },
+      {
+        "role": "user",
+        "text": "About 6 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with toothache?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Gum infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "toothache",
+    "possible_conditions": [
+      "Cavity",
+      "Gum infection",
+      "Tooth decay"
+    ]
+  },
+  {
+    "id": 93,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having shortness of breath lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "About 8 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Asthma. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "shortness of breath",
+    "possible_conditions": [
+      "Asthma",
+      "COPD",
+      "Anxiety"
+    ]
+  },
+  {
+    "id": 94,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having chest pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Muscle strain. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "chest pain",
+    "possible_conditions": [
+      "Heart disease",
+      "Muscle strain",
+      "Acid reflux"
+    ]
+  },
+  {
+    "id": 95,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having dizziness lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with dizziness?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dehydration. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "dizziness",
+    "possible_conditions": [
+      "Low blood pressure",
+      "Vertigo",
+      "Dehydration"
+    ]
+  },
+  {
+    "id": 96,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having anxiety lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Generalized anxiety disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "anxiety",
+    "possible_conditions": [
+      "Generalized anxiety disorder",
+      "Panic disorder"
+    ]
+  },
+  {
+    "id": 97,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having period pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing period pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with period pain?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dysmenorrhea. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "period pain",
+    "possible_conditions": [
+      "Dysmenorrhea",
+      "Endometriosis"
+    ]
+  },
+  {
+    "id": 98,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having shortness of breath lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with shortness of breath?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to COPD. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "shortness of breath",
+    "possible_conditions": [
+      "Asthma",
+      "COPD",
+      "Anxiety"
+    ]
+  },
+  {
+    "id": 99,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having constipation lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing constipation?"
+      },
+      {
+        "role": "user",
+        "text": "About 4 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with constipation?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dehydration. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "constipation",
+    "possible_conditions": [
+      "Dehydration",
+      "Low fiber diet"
+    ]
+  },
+  {
+    "id": 100,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having depression lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing depression?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with depression?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Dysthymia. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "depression",
+    "possible_conditions": [
+      "Major depressive disorder",
+      "Dysthymia"
+    ]
+  },
+  {
+    "id": 101,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having chest pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with chest pain?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Heart disease. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "chest pain",
+    "possible_conditions": [
+      "Heart disease",
+      "Muscle strain",
+      "Acid reflux"
+    ]
+  },
+  {
+    "id": 102,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having palpitations lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing palpitations?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with palpitations?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Anxiety. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "palpitations",
+    "possible_conditions": [
+      "Anxiety",
+      "Arrhythmia",
+      "Caffeine"
+    ]
+  },
+  {
+    "id": 103,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having insomnia lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Depression. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "insomnia",
+    "possible_conditions": [
+      "Stress",
+      "Anxiety",
+      "Depression"
+    ]
+  },
+  {
+    "id": 104,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having vomiting lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing vomiting?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with vomiting?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Migraine. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "vomiting",
+    "possible_conditions": [
+      "Gastroenteritis",
+      "Migraine",
+      "Food poisoning"
+    ]
+  },
+  {
+    "id": 105,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having anxiety lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Generalized anxiety disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "anxiety",
+    "possible_conditions": [
+      "Generalized anxiety disorder",
+      "Panic disorder"
+    ]
+  },
+  {
+    "id": 106,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having fatigue lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing fatigue?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with fatigue?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Depression. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "fatigue",
+    "possible_conditions": [
+      "Anemia",
+      "Sleep deprivation",
+      "Depression"
+    ]
+  },
+  {
+    "id": 107,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having nausea lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing nausea?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with nausea?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Gastroenteritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "nausea",
+    "possible_conditions": [
+      "Food poisoning",
+      "Pregnancy",
+      "Gastroenteritis"
+    ]
+  },
+  {
+    "id": 108,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having period pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing period pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with period pain?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Endometriosis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "period pain",
+    "possible_conditions": [
+      "Dysmenorrhea",
+      "Endometriosis"
+    ]
+  },
+  {
+    "id": 109,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having cold lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing cold?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with cold?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Allergic rhinitis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "cold",
+    "possible_conditions": [
+      "Common cold",
+      "Allergic rhinitis"
+    ]
+  },
+  {
+    "id": 110,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having insomnia lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with insomnia?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Stress. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "insomnia",
+    "possible_conditions": [
+      "Stress",
+      "Anxiety",
+      "Depression"
+    ]
+  },
+  {
+    "id": 111,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having anxiety lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with anxiety?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Generalized anxiety disorder. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "anxiety",
+    "possible_conditions": [
+      "Generalized anxiety disorder",
+      "Panic disorder"
+    ]
+  },
+  {
+    "id": 112,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having diarrhea lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing diarrhea?"
+      },
+      {
+        "role": "user",
+        "text": "About 7 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with diarrhea?"
+      },
+      {
+        "role": "user",
+        "text": "No, it's just that symptom."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to IBS. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "diarrhea",
+    "possible_conditions": [
+      "Infection",
+      "Food poisoning",
+      "IBS"
+    ]
+  },
+  {
+    "id": 113,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having earache lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing earache?"
+      },
+      {
+        "role": "user",
+        "text": "About 10 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with earache?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Ear infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "earache",
+    "possible_conditions": [
+      "Ear infection",
+      "Wax buildup"
+    ]
+  },
+  {
+    "id": 114,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having joint pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with joint pain?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Arthritis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "joint pain",
+    "possible_conditions": [
+      "Arthritis",
+      "Injury",
+      "Autoimmune disorder"
+    ]
+  },
+  {
+    "id": 115,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having nausea lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing nausea?"
+      },
+      {
+        "role": "user",
+        "text": "About 1 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with nausea?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I also feel tired."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Pregnancy. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "nausea",
+    "possible_conditions": [
+      "Food poisoning",
+      "Pregnancy",
+      "Gastroenteritis"
+    ]
+  },
+  {
+    "id": 116,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having eye irritation lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing eye irritation?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with eye irritation?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Conjunctivitis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "eye irritation",
+    "possible_conditions": [
+      "Conjunctivitis",
+      "Allergy",
+      "Dry eyes"
+    ]
+  },
+  {
+    "id": 117,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having appetite loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing appetite loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 3 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with appetite loss?"
+      },
+      {
+        "role": "user",
+        "text": "I have a bit of nausea too."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Infection. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "appetite loss",
+    "possible_conditions": [
+      "Depression",
+      "Infection",
+      "Stress"
+    ]
+  },
+  {
+    "id": 118,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having period pain lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing period pain?"
+      },
+      {
+        "role": "user",
+        "text": "About 9 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with period pain?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Endometriosis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "period pain",
+    "possible_conditions": [
+      "Dysmenorrhea",
+      "Endometriosis"
+    ]
+  },
+  {
+    "id": 119,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having cold lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing cold?"
+      },
+      {
+        "role": "user",
+        "text": "About 2 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with cold?"
+      },
+      {
+        "role": "user",
+        "text": "My sleep has been poor lately."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Allergic rhinitis. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "cold",
+    "possible_conditions": [
+      "Common cold",
+      "Allergic rhinitis"
+    ]
+  },
+  {
+    "id": 120,
+    "conversation": [
+      {
+        "role": "user",
+        "text": "I've been having weight loss lately."
+      },
+      {
+        "role": "assistant",
+        "text": "I'm sorry to hear that. How long have you been experiencing weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "About 5 days now."
+      },
+      {
+        "role": "assistant",
+        "text": "Do you have any other symptoms along with weight loss?"
+      },
+      {
+        "role": "user",
+        "text": "I'm not sure, maybe a slight fever."
+      },
+      {
+        "role": "assistant",
+        "text": "It might be related to Hyperthyroidism. I recommend staying hydrated and consulting a doctor if it persists."
+      }
+    ],
+    "category": "weight loss",
+    "possible_conditions": [
+      "Hyperthyroidism",
+      "Diabetes",
+      "Cancer"
+    ]
+  }
+]
