@@ -3,6 +3,7 @@ const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
 const { v4: uuidv4 } = require("uuid");
+const finlandGuidelines = require("./finlandGuidelines");
 
 const app = express();
 const PORT = 5001;
@@ -181,6 +182,28 @@ app.post("/api/next-step", (req, res) => {
     possible_conditions: session.possible_conditions
   });
 });
+
+// --- Direct guideline endpoint ---
+app.post("/api/guideline", (req, res) => {
+    const { symptom } = req.body;
+    if (!symptom) return res.status(400).json({ error: "symptom required" });
+  
+    const lower = symptom.toLowerCase().trim();
+  
+    // Try to match common patterns (e.g., "common cold" → "cold")
+    const key =
+      Object.keys(finlandGuidelines).find(k => lower.includes(k)) || lower;
+  
+    const guideline = finlandGuidelines[key];
+  
+    if (!guideline)
+      return res.json({
+        guideline: "No Finland-specific guidance available for this symptom.",
+      });
+  
+    res.json({ guideline });
+  });
+  
 
 app.get("/", (req, res) => res.send("✅ Medichat backend running"));
 
