@@ -190,19 +190,26 @@ app.post("/api/guideline", (req, res) => {
   
     const lower = symptom.toLowerCase().trim();
   
-    // Try to match common patterns (e.g., "common cold" → "cold")
-    const key =
-      Object.keys(finlandGuidelines).find(k => lower.includes(k)) || lower;
+    // Step 1: Exact match (highest priority)
+    let key = Object.keys(finlandGuidelines).find(k => k.toLowerCase() === lower);
+  
+    // Step 2: If no exact match, try partial match
+    if (!key) {
+      key = Object.keys(finlandGuidelines).find(k => lower.includes(k.toLowerCase()));
+    }
   
     const guideline = finlandGuidelines[key];
   
-    if (!guideline)
+    // Step 3: If still not found, return fallback message
+    if (!guideline) {
       return res.json({
         guideline: "No Finland-specific guidance available for this symptom.",
       });
+    }
   
     res.json({ guideline });
   });
+  
   
 
 app.get("/", (req, res) => res.send("✅ Medichat backend running"));
