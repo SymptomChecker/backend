@@ -50,9 +50,21 @@ function randomGreetingResponse() {
   return greetingResponses[Math.floor(Math.random() * greetingResponses.length)];
 }
 
+// 🩺 Dynamically extract symptom terms from Finland Guidelines
+const symptomWords = Object.keys(finlandGuidelines).map(k => k.toLowerCase());
+
 function detectGreeting(userInput) {
   const cleaned = userInput.toLowerCase().trim().replace(/[^\w\s]/g, "");
-  return greetings.some(greet => cleaned.includes(greet));
+  const words = cleaned.split(/\s+/);
+
+  const hasGreeting = greetings.some(
+    greet => words.includes(greet) || cleaned.startsWith(greet + " ")
+  );
+
+  const hasSymptom = symptomWords.some(sym => cleaned.includes(sym));
+
+  // Only a greeting if no symptom word is present
+  return hasGreeting && !hasSymptom;
 }
 
 // --- Utilities ---
@@ -101,7 +113,7 @@ app.post("/api/next-step", (req, res) => {
 
   const userLower = userMessage.toLowerCase().trim();
 
-  // 🟢 Step 1: Detect greetings first (even before conversation check)
+  // 🟢 Step 1: Detect greetings (only if no symptom terms found)
   if (detectGreeting(userMessage)) {
     return res.json({
       assistantMessage: randomGreetingResponse(),
@@ -185,32 +197,30 @@ app.post("/api/next-step", (req, res) => {
 
 // --- Direct guideline endpoint ---
 app.post("/api/guideline", (req, res) => {
-    const { symptom } = req.body;
-    if (!symptom) return res.status(400).json({ error: "symptom required" });
-  
-    const lower = symptom.toLowerCase().trim();
-  
-    // Step 1: Exact match (highest priority)
-    let key = Object.keys(finlandGuidelines).find(k => k.toLowerCase() === lower);
-  
-    // Step 2: If no exact match, try partial match
-    if (!key) {
-      key = Object.keys(finlandGuidelines).find(k => lower.includes(k.toLowerCase()));
-    }
-  
-    const guideline = finlandGuidelines[key];
-  
-    // Step 3: If still not found, return fallback message
-    if (!guideline) {
-      return res.json({
-        guideline: "No Finland-specific guidance available for this symptom.",
-      });
-    }
-  
-    res.json({ guideline });
-  });
-  
-  
+  const { symptom } = req.body;
+  if (!symptom) return res.status(400).json({ error: "symptom required" });
+
+  const lower = symptom.toLowerCase().trim();
+
+  // Step 1: Exact match
+  let key = Object.keys(finlandGuidelines).find(k => k.toLowerCase() === lower);
+
+  // Step 2: Partial match
+  if (!key) {
+    key = Object.keys(finlandGuidelines).find(k => lower.includes(k.toLowerCase()));
+  }
+
+  const guideline = finlandGuidelines[key];
+
+  // Step 3: Fallback
+  if (!guideline) {
+    return res.json({
+      guideline: "No Finland-specific guidance available for this symptom.",
+    });
+  }
+
+  res.json({ guideline });
+});
 
 app.get("/", (req, res) => res.send("✅ Medichat backend running"));
 
