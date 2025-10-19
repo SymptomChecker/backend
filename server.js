@@ -46,6 +46,11 @@ const greetingResponses = [
   "Hi! I’m here to help you check your symptoms."
 ];
 
+// Clean a string: lowercase, trim, remove punctuation
+function cleanText(text) {
+  return text.toLowerCase().trim().replace(/[^\w\s]/g, "");
+}
+
 function randomGreetingResponse() {
   return greetingResponses[Math.floor(Math.random() * greetingResponses.length)];
 }
@@ -54,16 +59,18 @@ function randomGreetingResponse() {
 const symptomWords = Object.keys(finlandGuidelines).map(k => k.toLowerCase());
 
 function detectGreeting(userInput) {
-  const cleaned = userInput.toLowerCase().trim().replace(/[^\w\s]/g, "");
-  const words = cleaned.split(/\s+/);
+  const cleanedInput = cleanText(userInput);
 
-  const hasGreeting = greetings.some(
-    greet => words.includes(greet) || cleaned.startsWith(greet + " ")
-  );
+  // Normalize greetings list
+  const cleanedGreetings = greetings.map(g => cleanText(g));
 
-  const hasSymptom = symptomWords.some(sym => cleaned.includes(sym));
+  // Check if any greeting is present in the input
+  const hasGreeting = cleanedGreetings.some(greet => cleanedInput.includes(greet));
 
-  // Only a greeting if no symptom word is present
+  // Check if any symptom word is present
+  const hasSymptom = symptomWords.some(sym => cleanedInput.includes(sym));
+
+  // Only treat as greeting if greeting found and no symptom words
   return hasGreeting && !hasSymptom;
 }
 
